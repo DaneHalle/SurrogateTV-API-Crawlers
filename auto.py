@@ -20,15 +20,12 @@ parser.add_argument('-l', '--loop', help='Loop over known games to get more user
                     type=int, default=1)
 parser.add_argument('-t', '--thread', help='Number of threads to run',
 					type=int, default=150)
-parser.add_argument('-u', '--url', help='Which site you want to check | 1=main | 2=staging | 3=dev',
-					type=int, default=1)
 args = parser.parse_args()
 
 WEBCRAWL = args.web
 NAMES = args.name
 LOOP = args.loop
 THREAD = args.thread
-URL=args.url
 
 baseURL="Not going to be that easy"
 
