@@ -26,7 +26,7 @@ with open("uIdSearch.dat", "r") as file:
 		if not currentPlace in uIdStore:
 			uIdStore.append(currentPlace)
 
-baseURL="Not going to be that easy"
+baseURL="https://g9b1fyald3.execute-api.eu-west-1.amazonaws.com/master"
 
 result=list()
 bad=list()

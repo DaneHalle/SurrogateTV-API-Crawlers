@@ -15,7 +15,7 @@ with open("uIdSearch.dat", "r") as file:
 		userId.append(currentPlace)
 
 bigBoiList=list()
-baseURL="Not going to be that easy"
+baseURL="https://g9b1fyald3.execute-api.eu-west-1.amazonaws.com/master"
 
 for obj in userId:
 	url=baseUrl+obj

@@ -1,5 +1,5 @@
 # SurrogateTV-API-Crawlers
-Here are all of my API Web Crawlers for the website Surrogate.TV. I have removed some information due to what it could reveal on the site. 
+Here are all of my API Web Crawlers for the website Surrogate.TV. Recent updates tot he site made it so only public games can be retrieved so I have included the API link.
 
 ##`rawGame.py`
 This script will, crawl through and provide all of the game pages on the site. 

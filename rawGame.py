@@ -2,7 +2,7 @@ import requests
 import json
 import sys
 
-baseURL="Not going to be that easy"
+baseURL="https://g9b1fyald3.execute-api.eu-west-1.amazonaws.com/master"
 
 shortIdResult=[]
 with open("shortId.dat", "r") as file:

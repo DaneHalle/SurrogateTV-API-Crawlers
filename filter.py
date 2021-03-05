@@ -24,7 +24,7 @@ nameAlt20 = list()
 name20 = list()
 nameAlt10 = list()
 name10 = list()
-baseURL="Not going to be that easy"
+baseURL="https://g9b1fyald3.execute-api.eu-west-1.amazonaws.com/master"
 
 with open("uIdSearch.dat", "r") as file:
 	for line in file:
